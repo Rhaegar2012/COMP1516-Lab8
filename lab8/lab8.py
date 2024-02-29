@@ -1,4 +1,4 @@
-# Author Jose Tellez
+# Author Jose Tellez, Wai Wah Ng , Pongs Phimnualsri
 
 from data import countries, capitals
 
@@ -49,6 +49,8 @@ def main():
     print_file_data()
 
 
+if __name__ == "__main__":
+    main()
 
 
 
