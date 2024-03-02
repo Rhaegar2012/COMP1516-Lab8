@@ -12,7 +12,7 @@ def get_countries(substring):
     file = open("MatchingCountries.txt", "w")
 
     for country in countries:
-        if substring in country:
+        if substring.lower() in country.lower():
             file.write(f"{country}\n")
 
     file.close()
