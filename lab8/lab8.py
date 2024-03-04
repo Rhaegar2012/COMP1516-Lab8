@@ -41,6 +41,7 @@ def print_file_data():
     lines = file.readlines()
     for line in lines:
         print(line)
+    file.close()
 
 
 def main():
